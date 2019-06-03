@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>도쿄여행</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 5px;
+			}
+	.clear{
+		clear: both;
+	}
+	li{
+		list-style-type: none;
+		
+	}
+	#page{
+		background-image: url(back.png);
+		background-repeat: no-repeat;
+		background-size: 1350px 2400px;
+		margin-left: 300px;
+	}
+	header{
+
+		width: 1300px;
+		height : 130px;
+		margin-top : 10px;
+		/* border: solid 1px blue;*/
+
+		
+	}
+	h2{
+		font-size: 60px;
+		color : #ffff99;
+		font-family : "헤드라인"; 
+
+	}
+	#titel{
+		float : left;
+
+	}
+	#subtitle{
+		color : #ffffff;
+		float : right;
+		font-size: 35px;
+		padding-right: 10px;
+	}
+	nav{
+		width : 1345px; 
+		height : 60px;
+		margin-top: 30px;
+		 /* border: solid 1px blue; */
+		padding-top : 20px;
+		background-color : #ccffff;
+	}
+	nav li{
+		font-size: 24px;
+		padding-left: 75px;
+		display: inline;
+		margin: 50px;
+		font-weight: bold;
+	}
+
+	#tokyotower{
+		float : left;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+	#skytree{
+		float : left ;
+		margin-left: 100px;
+		margin-top: 30px;
+	}
+	aside{
+		width : 300px;
+		height : 600px;
+		float: left;
+
+		margin-left: 80px;
+		margin-right: 0px;
+		margin-top: 50px;
+		/*border: solid 1px blue;*/ 
+		padding-left: 20px;
+		padding-right: 0px;
+	}
+	aside li{
+		font-size: 35px;
+		margin: 30px;
+		font-style: bold;
+	}
+
+	footer{
+		width: 1300px;
+		height: 100px;
+		margin-top: 10px;
+		color : #ffffff;
+		/* border : solid 1px blue; */
+		/* background-color : #cc6600;*/
+	}
+	#make{
+		float: left;
+		margin: 30px 0 0 20px;
+		font-size: 25px;
+	}
+	#number{
+		float : right;
+		margin : 30px 10px 0 180px;
+		font-size: 25px;
+	}
+	.dis{
+
+	}
+	.dis1{
+		display: none;
+	}
+	.dis:hover{
+		color: white;
+	}
+	.dis:hover .dis1{
+		display: block;
+	}
+	</style>
+</head>
+<body>
+<div id = 'page'>
+	<header> 
+		<div id ='title'>
+		<h2>도쿄여행<h2>
+		</div>
+		<div id = 'subtitle'>
+		Tokyo 旅行
+		</div>
+	</header>
+
+	<div class='clear'></div> <!-- float 속성 해제  !-->
+
+	<nav>
+		<ul>
+			<li>도쿄 소개</li>
+			<li>여행지</li>
+			<li>맛집</li>
+			<li>즐길거리</li>
+			<li>숙소</li>
+		</ul>
+	</nav>
+	<div class='clear'></div>
+	<section id = 'tokyotower'>
+		<img src = "도쿄타워.png" width="400" height="700">
+	</section>
+	<aside>
+			<ul>
+				<li><img src = "airplane.png" width = "200"></li>
+				<li><h3>도쿄여행기</h3></li>
+				<li> <h5> 가본 곳 </h5></li>
+				<li>  <h5>먹은 것</h5></li>
+				<li> <h5> 보고 즐긴 것</h5></li>
+				<div class ="dis">
+				<li> <h5> 영상 (↓클릭) </h5></li>
+				<div class ="dis1">
+				<li><img src = "button.png" width =" 200"></li>
+			</div>
+		</div>
+			</ul>
+		</aside>
+	
+	<section id = "skytree">
+		<img src = "skytree.jpg" width = "400" height="700">
+	</section>
+
+	<div class='clear'></div>
+	<footer>
+		<div id="make">
+			제작자 : 김종휘 <br>
+		</div>
+		<div id="number">
+			학번 : 20190706
+		</div>
+	</footer>
+
+</div>
+
+
+</body>
+</html>
