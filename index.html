@@ -7,7 +7,7 @@
 
 	*{
 		padding: 0;
-		margin: 2px;
+		margin: 0px;
 			}
 	.clear{
 		clear: both;
@@ -19,22 +19,24 @@
 	#page{
 		background-image: url(back.png);
 		background-repeat: no-repeat;
-		background-size: 1900px 2400px;
-		margin-left: 0px;
+		background-size: 1300px 920px;
+		margin-left: 180px;
+		margin-right: 180px;
 	}
 	header{
 
-		width: 1800px;
-		height : 130px;
+		width: 1250px;
+		height : 70px;
 		margin-top : 10px;
-		/* border: solid 1px blue;*/
 
-		
+		/* border: solid 1px blue;*/
 	}
 	h2{
 		font-size: 60px;
 		color : #ffff99;
-		font-family : "HY헤드라인M"; 
+		margin-left: 20px;
+		padding-top: 20px;
+		font-family : "휴먼엑스포"; 
 
 	}
 	#titel{
@@ -49,7 +51,7 @@
 
 	}
 	nav{
-		width : 1870px; 
+		width : 1290px; 
 		height : 60px;
 		margin-top: 30px;
 		 /* border: solid 1px blue; */
@@ -57,29 +59,32 @@
 		background-color : #ccffff;
 	}
 	nav li{
-		font-size: 24px;
-		padding-left: 75px;
+		font-size: 26px;
+		padding-left: 70px;
 		display: inline;
-		margin: 50px;
-		margin-left: 140px;
+		margin: 120px;
+		margin-left: 40px;
 		font-weight: bold;
+		text-align: center;
+		font-family : "한초롱돋움"; 
 	}
 
 	#tokyotower{
 		float : left;
-		margin-right: 50px;
-		margin-top: 30px;
+		margin-right: 0px;
+		margin-top: 80px;
+		
 	}
 	#skytree{
 		float : left ;
-		margin-left: 200px;
-		margin-top: 30px;
+		margin-left: 50px;
+		margin-top: 80px;
 	}
 	#nakha{
-		margin-left: 60px;
+		margin-left: 70px;
 	}
 	#airplane{
-		margin-left : 50px;
+		margin-left : 40px;
 	}
 	aside{
 		width : 400px;
@@ -92,31 +97,33 @@
 		
 	}
 	aside li{
-		font-size: 35px;
-		margin-left: 40px;
+		font-size: 30px;
+		margin-right: 100px;	
 		margin-bottom: 23px;
 		font-style: bold;
+		text-align: center;
+		font-family : "한초롱돋움"; 
 	}
 
 	footer{
-		width: 1800px;
+		width: 1250px;
 		height: 100px;
-		margin-top: 10px;
+		margin-top: 0px;
 		color : #ffffff;
 		/* border : solid 1px blue; */
 		/* background-color : #cc6600;*/
 	}
 	#pg{
-		margin-left : 230px;
+		margin-left : 50px;
 	}
 	#make{
 		float: left;
-		margin: 30px 0 0 20px;
+		margin: 0 0 0 30px;
 		font-size: 25px;
 	}
 	#number{
 		float : right;
-		margin : 30px 10px 0 180px;
+		margin : 0 0 0 180px;
 		font-size: 25px;
 	}
 	.dis{
@@ -127,10 +134,16 @@
 		padding-bottom: 60px;
 	}
 	.dis:hover{
-		color: white;
+		color: #ffffff;
 	}
 	.dis:hover .dis1{
 		display: block;
+	}
+	a:hover {
+		color: white;
+	}
+	a:active{
+		color : blue;
 	}
 	</style>
 </head>
@@ -149,17 +162,18 @@
 
 	<nav>
 		<ul>
-			<li>도쿄 소개</li>
-			<li>여행지</li>
-			<li>맛집</li>
-			<li>즐길거리</li>
-			<li>숙소</li>
+			<li><a href = "nav1.html">도쿄 소개</a></li>
+			<li><a href = "nav2.html">여행지</a></li>
+			<li><a href = "nav3.html">맛집</a></li>
+			<li><a href = "nav4.html">즐길거리</a></li>
+			
 		</ul>
 	</nav>
+
 	<div class='clear'></div>
 	<div id = 'pg'>
 	<section id = 'tokyotower'>
-		<img src = "도쿄타워.png" width="400" height="700">
+		<img src = "도쿄타워.png" width="300" height="450">
 	</section>
 	<aside>
 		<div class ="dis">
@@ -169,7 +183,7 @@
 			<ul>
 				<div class ="dis1">
 					<div id ="nakha">
-				<li><img src ="낙하산.png" width = 100></li>
+				<img src ="낙하산.png" width = 100>
 			</div>
 				<li><h3>도쿄여행기</h3></li>
 				<li> <h5> 가본 곳 </h5></li>
@@ -177,7 +191,7 @@
 				<li> <h5> 보고 즐긴 것</h5></li>
 				<li> <h5> 영상 (↓클릭) </h5></li>
 				
-				<li><img src = "button.png" width =" 200"></li>
+				<li><img src = "button.png" width =" 100"></li>
 			
 		
 	</div>
@@ -186,7 +200,7 @@
 		</aside>
 	
 	<section id = "skytree">
-		<img src = "skytree.jpg" width = "400" height="700">
+		<img src = "skytree.jpg" width = "300" height="450">
 	</section>
 </div>
 	<div class='clear'></div>

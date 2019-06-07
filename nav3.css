@@ -1,0 +1,74 @@
+	<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0px;
+		}
+
+	.clear{
+		clear: both;
+	}
+
+	li{
+		list-style-type: none;
+	}
+
+	body{
+		background-image: url(sky.jpg);
+		background-repeat: no-repeat;
+		margin-left: 70px;
+		background-size: 10000px;
+	}
+	
+	header{
+		
+		padding: 10px;
+		width: 1400px;
+		border: solid 8px white;	}
+
+	header h1{
+		text-align: center ;
+		font-family : "휴먼엑스포"; 
+		font-size : 50px;
+		color: white;
+
+	}
+	#s1{
+		
+		margin: 30px;
+
+	}
+	#s2{
+		width: 1300px;
+		border: dotted 5px white;
+		padding : 10px ;
+		float : left;
+		margin: 30px;
+		margin-left: 50px;
+	}
+	h2{
+		color: white;
+	}
+	.photo{
+		margin-left: 20px;
+	}
+	.photo1{
+		margin-left: 50px;
+		margin-top: 10px;
+		float : left;
+		color: white;
+
+
+	}
+
+		
+		
+	.t1{
+		
+		color: black;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 3px;
+		line-height: 150%;
+	}
+	</style>
