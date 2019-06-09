@@ -8,6 +8,8 @@
 	*{
 		padding: 0;
 		margin: 0px;
+		text-decoration:none;
+
 			}
 	.clear{
 		clear: both;
@@ -139,11 +141,15 @@
 	.dis:hover .dis1{
 		display: block;
 	}
-	a:hover {
-		color: white;
-	}
+	
 	a:active{
 		color : blue;
+	}
+	a:visited{
+		color : black;
+	}
+	.dis a:visited{
+		color: white;
 	}
 	</style>
 </head>
@@ -185,13 +191,13 @@
 					<div id ="nakha">
 				<img src ="낙하산.png" width = 100>
 			</div>
-				<li><h3>도쿄여행기</h3></li>
-				<li> <h5> 가본 곳 </h5></li>
-				<li>  <h5>먹은 것</h5></li>
-				<li> <h5> 보고 즐긴 것</h5></li>
-				<li> <h5> 영상 (↓클릭) </h5></li>
+				<li><h3>나의 도쿄여행</h3></li>
+				<li> <h5><a href="my1.html"> 첫째 날 / 둘째 날 </a>  </h5></li>
+				<li>  <h5><a href="my2.html">셋째 날</a></h5></li>
+				<li>  <h5><a href="my4.html">넷째 날</a></h5></li>
+				<li> <h5>영상 (↓클릭) </a></h5></li>
 				
-				<li><img src = "button.png" width =" 100"></li>
+				<li><a href="my3.html"> <img src = "button.png" width =" 100"></a></li>
 			
 		
 	</div>
