@@ -36,7 +36,7 @@
 	#s1{
 		
 		margin: 30px;
-
+		
 	}
 	#s2{
 		width: 1300px;
@@ -45,7 +45,9 @@
 		float : left;
 		margin: 30px;
 		margin-left: 50px;
+		
 	}
+
 	h2{
 		color: white;
 	}
@@ -68,9 +70,10 @@
 		line-height: 150%;
 	}
 	
-	#dis{
+	.photo img{
 		transition :  width 2s, height 2s;
 	}
+
 	#dis1{
 		display: none;
 	}
@@ -80,8 +83,8 @@
 
 	}
 	
-	.tran:hover{
-		width: 100%;
+	.photo img:hover{
+		width: 300px;
 	}
 
 

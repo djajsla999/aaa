@@ -54,8 +54,15 @@
 	#s2 h2{
 		color: white;
 	}
-	.photo{
+	.photo img{
 		margin-left: 20px;
+		width: 100px;
+		height: 200px;
+		transition :  width 2s, height 2s;
+	}
+	.photo img:hover{
+		width: 600px;
+		height: 400px;
 	}
 	.t1{
 		color: black;
