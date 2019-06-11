@@ -70,7 +70,7 @@
 		line-height: 150%;
 	}
 	
-	.photo img{
+	.photo1 img{
 		transition :  width 2s, height 2s;
 	}
 	
@@ -84,7 +84,7 @@
 
 	}
 	
-	.photo img:hover{
+	.photo1 img:hover{
 		width: 300px;
 	}
 
