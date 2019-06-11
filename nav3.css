@@ -73,6 +73,9 @@
 	.photo img{
 		transition :  width 2s, height 2s;
 	}
+	.photo img:hover{
+		width : 100px;
+	}
 
 	#dis1{
 		display: none;
